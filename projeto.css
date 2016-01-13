@@ -1,0 +1,141 @@
+body{
+	background-color: #ede9e5;
+}
+
+/*Start RD Station*/
+header {
+    display: block;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    border-top-width: 3px;
+    border-top-style: solid;
+    padding: 30px 0 30px;
+    background-color: #506e84;
+    color: #cbd4da;
+    border-top-color: #40586a;
+}
+
+header{
+    background-color: #846d50;
+    color: #dad3cb;
+    border-top-color: #6a5740;
+    border-top-width: 0;
+}
+
+header .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo.bg-dark span.logoicon-rd-station {
+    color: #e0dbd3;
+}
+
+.logo {
+    display: block;
+    font-size: 4em;
+    margin: 0;
+    line-height: 1;
+}
+
+.logo a:hover, .logo a:focus, .logo:hover, .logo:focus {
+    text-decoration: none;
+}
+
+header .nav {
+    line-height: 3em;
+}
+
+header .nav-pills>li>a {
+    font-weight: 400;
+    font-size: 1em;
+    color: #e5e9ed;
+    padding: 10px 8px;
+}
+
+header .nav-pills>li>a:hover,
+header .nav-pills>li>a:focus,
+header .nav-pills>li.active>a,
+header .nav-pills>li.active>a:hover,
+header .nav-pills>li.active>a:focus {
+    background: none;
+    color: #fff;
+}
+/*End RD Station*/
+
+
+
+.container{
+	max-width: 1000px;
+	background: #99999
+
+}
+
+.box-photo{
+	padding-top: 10px;
+}
+.box-photo img{
+
+	width: 130px;
+	height: auto;
+	border-radius: 50%;
+	border:2px solid #999999;
+}
+
+.box-results{
+    display: table;
+    margin: 0 auto;
+}
+
+.box-results-container{
+	margin-top: 10px; 
+	margin-bottom: 20px;
+    height: 100px;
+    border-radius: 8px;
+	background-color: rgba(132, 109, 80, 0.5);
+    color: #ffffff;
+}
+
+.box-results-container h3{
+    margin-top: 10px;
+}
+
+.box-about{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 8px;
+	background-color: #ffffff;
+}
+
+.box-about img{
+	padding-top: 15px;
+	width:250px;
+	height: auto;
+}
+
+.box-seguimento{
+    margin-top: 15px;
+    border-left:3px solid #ccc;
+}
+
+.box-seguimento a{
+    padding: 10px;  
+}
+
+.box-seguimento a:first-child{
+    padding-left: 0;
+}
+
+hr{
+    border: 1px solid #cccccc;
+}
+
+.quote{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
